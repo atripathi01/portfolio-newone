@@ -13,7 +13,7 @@ const Projects = () => {
                     <ProjectBox>
                         <Image src="/image/ecart.jpg" alt="ecommerce"></Image>
                         <ProjectContentF>
-                            <ProjectName>#5 Ecommerce App</ProjectName>
+                            <ProjectName>#6 Ecommerce App</ProjectName>
                             <Detail>Built an eCommerce site with the help of react, redux, nodejs, style-components and framer-motion.
                               <br /> It is based on Vitejs build tool.
                                 It is built for the practice of Reactjs and Redux in general.
@@ -30,7 +30,7 @@ const Projects = () => {
                     <ProjectBox>
                         <Image src="/image/weather.jpg" alt="weatherapp"></Image>
                         <ProjectContentS>
-                            <ProjectName>#4 Weather App</ProjectName>
+                            <ProjectName>#5 Weather App</ProjectName>
                             <Detail>
                             This app is built on Reactjs and it's made in vite app This app is based on reactjs and framer-motion.<br />
                              It uses an open-source REST API to fetch weather data of any coordinates and it is hosted on Netlify.  
@@ -44,7 +44,7 @@ const Projects = () => {
                     <ProjectBox>
                         <Image src="/image/todo.png" alt="todo"></Image>
                         <ProjectContentF>
-                            <ProjectName>#3 Todo List App</ProjectName>
+                            <ProjectName>#4 Todo List App</ProjectName>
                             <Detail>
                             A single-page app is developed on Reactjs. It is a smart task lists app for everyday use.<br />
                                 Used technologies are Reactjs & CSS and it's deploy on  Netlify. 
@@ -57,8 +57,22 @@ const Projects = () => {
 
                     <CenterS>
                     <ProjectBox>
-                        <Image src="/image/xo.jpg" alt="tictactoe"></Image>
+                        <Image src="/image/quizz.jpg" alt="tictactoe"></Image>
                         <ProjectContentS>
+                            <ProjectName>#3 Quiz Game</ProjectName>
+                            <Detail>
+                                Developed a Quiz App on Reactjs.Made for general practice of Reactjs.
+                                Used technologies are Reactjs & CSS .It's deploy on Firebase.Here I know about Firebase.
+                            </Detail>
+                            <LinkS href="https://github.com/atripathi01/quiz-game.git"><ButtonViewSource>View Source</ButtonViewSource></LinkS>
+                            <LinkA href="https://quiz-game-appp.web.app/"><ButtonLiveDemo>Live Demo</ButtonLiveDemo></LinkA>
+                        </ProjectContentS>
+                    </ProjectBox>
+                    </CenterS>
+                    <CenterF>
+                    <ProjectBox>
+                        <Image src="/image/xo.jpg" alt="tictactoe"></Image>
+                        <ProjectContentF>
                             <ProjectName>#2 Tic Tac Toe Game</ProjectName>
                             <Detail>
                                 Built a Tic-Tac-Toe game on Reactjs.Made for practice of Reactjs when I started.
@@ -66,21 +80,21 @@ const Projects = () => {
                             </Detail>
                             <LinkS href="https://github.com/atripathi01/Tic-Tac-Toe-Game-.git"><ButtonViewSource>View Source</ButtonViewSource></LinkS>
                             <LinkA href="https://fir-game-21ef3.web.app/"><ButtonLiveDemo>Live Demo</ButtonLiveDemo></LinkA>
-                        </ProjectContentS>
+                        </ProjectContentF>
                     </ProjectBox>
-                    </CenterS>
+                    </CenterF>
 
-                    <CenterF>
+                    <CenterS>
                     <ProjectBox>
                         <Image src="/image/calculator.png" alt="calculator"></Image>
-                        <ProjectContentF>
+                        <ProjectContentS>
                             <ProjectName>#1 Calculator</ProjectName>
                             <Detail>This is created in Javascript and CSS. This web app have features like Addition, subtraction, Multiplication, etc. </Detail>
                             <LinkS href="https://github.com/atripathi01/Calculator.git"><ButtonViewSource>View Source</ButtonViewSource></LinkS>
                             <LinkA href="#"><ButtonLiveDemo>Live Demo</ButtonLiveDemo></LinkA>
-                        </ProjectContentF>
+                        </ProjectContentS>
                     </ProjectBox>
-                    </CenterF>
+                    </CenterS>
 
 
                 {/* </ProjectList> */}
