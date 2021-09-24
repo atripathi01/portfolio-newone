@@ -15,7 +15,8 @@ const Home =()=>{
         initial={{opacity:0}}
         animate={{opacity:1}}
         transition={{duration:2}}
-        ><Ava><Img src="./image/av.png"></Img></Ava><br></br>Hey there!👋 I'm <Color>Ayush</Color>.<br></br>India-based <Color>Frontend developer</Color>.</Myself>
+        ><Ava><Img src="./image/av.png"></Img></Ava><br></br>Hey there!👋 I'm <Color>Ayush</Color>.<br></br>India-based <Color>Frontend developer</Color>.
+        </Myself>
         <Section id="about-section">
         <Box><About>About</About></Box>
         <Cene>

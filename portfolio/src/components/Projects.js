@@ -19,8 +19,8 @@ const Projects = () => {
                                 It is built for the practice of Reactjs and Redux in general.
 
                             </Detail>
-                            <LinkS href="https://github.com/atripathi01/Ecommerce.git"><ButtonViewSource>View Source</ButtonViewSource></LinkS>
-                            <LinkA href="#"><ButtonLiveDemo>Live Demo</ButtonLiveDemo></LinkA>
+                            <LinkS href="https://github.com/atripathi01/Ecommerce-bigdeal.git"><ButtonViewSource>View Source</ButtonViewSource></LinkS>
+                            <LinkA href="https://ecommerce-bigstore.web.app/"><ButtonLiveDemo>Live Demo</ButtonLiveDemo></LinkA>
                         </ProjectContentF>
                     </ProjectBox>
                     </CenterF>
