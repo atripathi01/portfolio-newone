@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
 import Footer from './Footer';
+import { FiGithub } from "react-icons/fi";
+import {FaFirefoxBrowser} from "react-icons/fa";
 
 const Projects = () => {
     return (
@@ -19,8 +21,8 @@ const Projects = () => {
                                 It is built for the practice of Reactjs and Redux in general.
 
                             </Detail>
-                            <LinkS href="https://github.com/atripathi01/Ecommerce-bigdeal.git"><ButtonViewSource>View Source</ButtonViewSource></LinkS>
-                            <LinkA href="https://ecommerce-bigstore.web.app/"><ButtonLiveDemo>Live Demo</ButtonLiveDemo></LinkA>
+                            <LinkS href="https://github.com/atripathi01/Ecommerce-bigdeal.git"><ButtonViewSource>View Source <span><FiGithub /></span></ButtonViewSource></LinkS>
+                            <LinkA href="https://ecommerce-bigstore.web.app/"><ButtonLiveDemo>Live Demo <span><FaFirefoxBrowser /></span></ButtonLiveDemo></LinkA>
                         </ProjectContentF>
                     </ProjectBox>
                     </CenterF>
@@ -35,8 +37,8 @@ const Projects = () => {
                             This app is built on Reactjs and it's made in vite app This app is based on reactjs and framer-motion.<br />
                              It uses an open-source REST API to fetch weather data of any coordinates and it is hosted on Netlify.  
                             </Detail>
-                            <LinkS href="https://github.com/atripathi01/WeatherApp.git"><ButtonViewSource>View Source</ButtonViewSource></LinkS>
-                           <LinkA href="https://confident-goodall-bfdd2c.netlify.app/"> <ButtonLiveDemo>Live Demo</ButtonLiveDemo></LinkA>
+                            <LinkS href="https://github.com/atripathi01/WeatherApp.git"><ButtonViewSource>View Source <span><FiGithub /></span></ButtonViewSource></LinkS>
+                           <LinkA href="https://confident-goodall-bfdd2c.netlify.app/"> <ButtonLiveDemo>Live Demo <span><FaFirefoxBrowser /></span></ButtonLiveDemo></LinkA>
                         </ProjectContentS>
                     </ProjectBox>
                     </CenterS>
@@ -49,8 +51,8 @@ const Projects = () => {
                             A single-page app is developed on Reactjs. It is a smart task lists app for everyday use.<br />
                                 Used technologies are Reactjs & CSS and it's deploy on  Netlify. 
                             </Detail>
-                            <LinkS href="https://github.com/atripathi01/todoApp.git"><ButtonViewSource>View Source</ButtonViewSource></LinkS>
-                            <LinkA href="https://csb-81pum.netlify.app/"><ButtonLiveDemo>Live Demo</ButtonLiveDemo></LinkA>
+                            <LinkS href="https://github.com/atripathi01/todoApp.git"><ButtonViewSource>View Source <span><FiGithub /></span></ButtonViewSource></LinkS>
+                            <LinkA href="https://csb-81pum.netlify.app/"><ButtonLiveDemo>Live Demo <span><FaFirefoxBrowser /></span></ButtonLiveDemo></LinkA>
                         </ProjectContentF>
                     </ProjectBox>
                     </CenterF>
@@ -64,8 +66,8 @@ const Projects = () => {
                                 Developed a Quiz App on Reactjs.Made for general practice of Reactjs.
                                 Used technologies are Reactjs & CSS .It's deploy on Firebase.Here I know about Firebase.
                             </Detail>
-                            <LinkS href="https://github.com/atripathi01/quiz-game.git"><ButtonViewSource>View Source</ButtonViewSource></LinkS>
-                            <LinkA href="https://quiz-game-appp.web.app/"><ButtonLiveDemo>Live Demo</ButtonLiveDemo></LinkA>
+                            <LinkS href="https://github.com/atripathi01/quiz-game.git"><ButtonViewSource>View Source <span><FiGithub /></span></ButtonViewSource></LinkS>
+                            <LinkA href="https://quiz-game-appp.web.app/"><ButtonLiveDemo>Live Demo <span><FaFirefoxBrowser /></span></ButtonLiveDemo></LinkA>
                         </ProjectContentS>
                     </ProjectBox>
                     </CenterS>
@@ -78,8 +80,8 @@ const Projects = () => {
                                 Built a Tic-Tac-Toe game on Reactjs.Made for practice of Reactjs when I started.
                                 Used technologies are Reactjs & CSS .It's deploy on Firebase.Here I know about Firebase.
                             </Detail>
-                            <LinkS href="https://github.com/atripathi01/Tic-Tac-Toe-Game-.git"><ButtonViewSource>View Source</ButtonViewSource></LinkS>
-                            <LinkA href="https://fir-game-21ef3.web.app/"><ButtonLiveDemo>Live Demo</ButtonLiveDemo></LinkA>
+                            <LinkS href="https://github.com/atripathi01/Tic-Tac-Toe-Game-.git"><ButtonViewSource>View Source <span><FiGithub /></span></ButtonViewSource></LinkS>
+                            <LinkA href="https://fir-game-21ef3.web.app/"><ButtonLiveDemo>Live Demo <span><FaFirefoxBrowser /></span></ButtonLiveDemo></LinkA>
                         </ProjectContentF>
                     </ProjectBox>
                     </CenterF>
@@ -90,8 +92,8 @@ const Projects = () => {
                         <ProjectContentS>
                             <ProjectName>#1 Calculator</ProjectName>
                             <Detail>This is created in Javascript and CSS. This web app have features like Addition, subtraction, Multiplication, etc. </Detail>
-                            <LinkS href="https://github.com/atripathi01/Calculator.git"><ButtonViewSource>View Source</ButtonViewSource></LinkS>
-                            <LinkA href="#"><ButtonLiveDemo>Live Demo</ButtonLiveDemo></LinkA>
+                            <LinkS href="https://github.com/atripathi01/Calculator.git"><ButtonViewSource>View Source <span><FiGithub /></span></ButtonViewSource></LinkS>
+                            <LinkA href="#"><ButtonLiveDemo>Live Demo <span><FaFirefoxBrowser /></span></ButtonLiveDemo></LinkA>
                         </ProjectContentS>
                     </ProjectBox>
                     </CenterS>
